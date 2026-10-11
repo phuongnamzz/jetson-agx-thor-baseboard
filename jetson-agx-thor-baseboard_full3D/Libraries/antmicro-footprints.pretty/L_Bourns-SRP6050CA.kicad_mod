@@ -1,0 +1,286 @@
+(footprint "L_Bourns-SRP6050CA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.629468 0.626 270)
+		(layer "F.SilkS")
+		(uuid "181ebd48-00f5-4f3d-b215-7efb4ef88ec5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "L_1u_20A_Bourns-SRP6050CA"
+		(at -0.025 4.85 180)
+		(layer "F.Fab")
+		(uuid "3369a124-3796-4fb4-98de-c1ad72e371d2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP6050CA.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96ad1f32-7b37-4f71-879e-b00ae43d8137")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor (SMT), 1 µH, 20 A, Shielded, 23 A, SRP6050CA"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1e42fae-dc67-4865-80fd-76bd64c28979")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "1u/20A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68b33fd3-b71c-4b01-8e13-562ef95b74f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Bourns"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "768549aa-e27e-4402-ac55-2d12c14bb9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SRP6050CA-1R0M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6af3a03-352c-4492-913e-a9da3d2c4172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISat" "23 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14ea40d9-0cdd-4966-b38e-196988e0732a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" "20 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "851d5d57-a470-4b65-9f99-d398a0b4ade1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "6.6x6.4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5945f0ff-a228-4f48-a448-6aa038206daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e543ff81-f650-40aa-a9b7-517af8510b97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc11d1ee-77b0-4c5a-ab6f-3a60ac03b5ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/DCDC/")
+	(sheetfile "dcdc.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.2 -3.301)
+		(end -3.2 3.298)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95c11f42-4a94-48fe-8522-801ffb24a69c")
+	)
+	(fp_line
+		(start -3.2 -3.301)
+		(end 3.2 -3.301)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f6c87e7-1821-4cfa-aebb-a9540191a470")
+	)
+	(fp_line
+		(start 3.2 -3.301)
+		(end 3.2 3.298)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba8e84d0-a810-425c-909c-ef7edc2d70bf")
+	)
+	(fp_line
+		(start 3.2 3.298)
+		(end -3.2 3.298)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7964d2f5-e453-49d1-9e72-f909441817e3")
+	)
+	(fp_rect
+		(start -3.45 -3.55)
+		(end 3.45 3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e8189753-252e-4e0c-9c08-2d76ca1f00c2")
+	)
+	(fp_rect
+		(start -3.202 -3.301)
+		(end 3.2 3.298)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4a94ad86-473b-4490-b0af-6d1fbe26f04e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.45 6.85 180)
+		(layer "F.Fab")
+		(uuid "16f5a3ed-6037-43ea-ae56-37cf336dbf4b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -3.45 8.05 180)
+		(layer "F.Fab")
+		(uuid "dedc2d34-0a2f-466d-8739-a4f11423e793")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -3.45 9.25 180)
+		(layer "F.Fab")
+		(uuid "b48e9c8d-bb5e-4b48-ad29-7c70133b35d3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.025 0)
+		(size 1.55 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "25c9e5a2-2600-4a3f-b703-83e0ee589caa")
+	)
+	(pad "2" smd roundrect
+		(at 2.025 0)
+		(size 1.55 5.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "1e9b1de6-a82d-4dbe-8055-7eeb462f574a")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/SRP6050CA-1R0M.stp"
+		(offset
+			(xyz 0 0 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 180 0)
+		)
+	)
+)

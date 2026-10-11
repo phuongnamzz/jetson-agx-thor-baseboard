@@ -1,0 +1,305 @@
+(footprint "SOIC-8-1EP_3.9x4.9x1.75mm_P1.27mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -2.849 0)
+		(layer "F.SilkS")
+		(uuid "9f8102c3-db0d-4eb8-92fc-e1a4d64aa9c1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "AT24CS01_SOIC8"
+		(at 0 3.651 0)
+		(layer "F.Fab")
+		(uuid "b70d769e-4df3-442d-9db5-4c92b7f22ce6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/20006330A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55ddb01e-490f-4ea2-918a-850b47bfec9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "EEPROM, 1 Kbit, 128 x 8bit, Serial I2C (2-Wire), 1 MHz, SOIC-8"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fe5c5f8-4fd7-419b-b57b-92305be7e586")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Microchip Technology"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bddd822-b652-4af5-8996-6539a63bb9b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "AT24CS01-SSHM-B"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6950430a-e9c5-4c40-8d94-1c4eaee8dead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27b1f21c-b107-4ed4-8001-d9b6b13d7e1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fa1d374-07f0-4047-912b-2c09a42af5ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Peripherals/")
+	(sheetfile "peripherals.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.95 -2.549)
+		(end -1.95 -2.549)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5db88dd-2db6-4a35-8f1a-fd64eeb0b992")
+	)
+	(fp_line
+		(start 1.95 2.551)
+		(end -1.95 2.551)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd979292-45e4-4fe9-a23f-c258df345dae")
+	)
+	(fp_circle
+		(center -2.65 -2.405)
+		(end -2.6 -2.405)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "bcff5614-21b8-475a-9bd5-ed73faac1605")
+	)
+	(fp_rect
+		(start -3.5 -2.7)
+		(end 3.5 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bf611023-a607-41e5-afd1-f55ffd2ebcbd")
+	)
+	(fp_line
+		(start -1.95 -1.179)
+		(end -0.683 -2.451)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54ae0a9f-d229-49c7-9804-e252f3d6933e")
+	)
+	(fp_line
+		(start -1.95 2.451)
+		(end -1.95 -1.179)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b037a874-d910-4e47-a9bc-556da41b84ce")
+	)
+	(fp_line
+		(start -0.683 -2.451)
+		(end 1.949 -2.451)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04124b1f-2701-4969-abc2-0efb8ec3ad91")
+	)
+	(fp_line
+		(start 1.949 -2.451)
+		(end 1.949 2.451)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad521be6-c607-43f6-bad4-13a130d58ecb")
+	)
+	(fp_line
+		(start 1.949 2.451)
+		(end -1.95 2.451)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f173415e-33f9-4a5a-9656-bec62f855561")
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -3.6 5.651 0)
+		(layer "F.Fab")
+		(uuid "53fe43d2-84a1-4c31-9a01-9cd429239078")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -3.6 6.851 0)
+		(layer "F.Fab")
+		(uuid "521fa5e0-47ed-4218-b88b-758cab05a89d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.6 8.051 0)
+		(layer "F.Fab")
+		(uuid "cd02dd77-6674-436a-97cf-718824ba80c6")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.715 -1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "846db1cf-f271-4bed-8d2f-a66d047900f4")
+	)
+	(pad "2" smd rect
+		(at -2.715 -0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1314845-2ed3-4890-b154-08acd69e9ecd")
+	)
+	(pad "3" smd rect
+		(at -2.715 0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5715a273-ad1e-4a9f-88b2-89d1727f4fe1")
+	)
+	(pad "4" smd rect
+		(at -2.715 1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53f82825-f6ef-414f-bb95-3f18315b2101")
+	)
+	(pad "5" smd rect
+		(at 2.71 1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc64a4fd-2178-4f5e-bdb9-f22630b3d0e1")
+	)
+	(pad "6" smd rect
+		(at 2.71 0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "740a0fbd-b57e-428d-aa11-649ca90fe622")
+	)
+	(pad "7" smd rect
+		(at 2.71 -0.635 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27668189-1d0e-47e3-8cf5-d31bfb94befa")
+	)
+	(pad "8" smd rect
+		(at 2.71 -1.905 90)
+		(size 0.65 1.525)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "17e47153-47db-475a-b69e-b6a3649a4777")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 2.29 3.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "339617cb-420e-407f-84c0-1ce89b7a5c82")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.step"
+		(offset
+			(xyz 0 -0.001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

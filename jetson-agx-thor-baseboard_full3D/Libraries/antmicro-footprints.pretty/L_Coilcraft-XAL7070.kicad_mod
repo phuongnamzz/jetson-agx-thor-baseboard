@@ -1,0 +1,315 @@
+(footprint "L_Coilcraft-XAL7070"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.234468 -2.855 270)
+		(layer "F.SilkS")
+		(uuid "ca8139eb-571b-4431-90c6-c6bee3cf38a0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "L_3u3_15.1A_Coilcraft-XAL7070"
+		(at 0 5.2 180)
+		(layer "F.Fab")
+		(uuid "b27effbb-c525-4db1-8fc6-34c0e6560deb")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7070/xal7070-332/"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc9693d4-b1ef-464a-a8a5-e3135a483126")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor (SMD), 3.3 µH, 15.1 A, Shielded, 19.4 A, XAL7070"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9981e792-cf56-430a-9488-f472036a6336")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "3u3/15.1A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71fb0b77-92bd-48c1-addb-47048c2593e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Coilcraft"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab154601-6412-4d85-9d87-03825dc10173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "XAL7070-332MEB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dad5f40-903c-4823-a7a6-652ee79c6fcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISat" "19.4 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffb222d0-5a78-4d8a-8389-a325f9ef9e4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" "15.1 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90500d3e-d2b4-46ca-9f9a-52f2026758c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "7.7x8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81eadb82-8e71-46fe-98f4-e95de4603beb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b0dd14-fd81-4c2e-988b-f6432a029cd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c363882-f77d-4ec3-a946-f944981ddfd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/DCDC/")
+	(sheetfile "dcdc.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.85 4)
+		(end -3.85 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90842bed-f30e-4a4d-bd9f-fdc7c0915b6b")
+	)
+	(fp_line
+		(start -3.85 4)
+		(end 3.85 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad4d5ff9-7e8e-4272-b2e1-6a1a73f20317")
+	)
+	(fp_line
+		(start 3.85 -4)
+		(end -3.85 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bb4349c-2403-43bf-96f8-558436fd10b7")
+	)
+	(fp_line
+		(start 3.85 -4)
+		(end 3.85 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6838c5a9-0aea-44c2-bbf7-f698eb86180d")
+	)
+	(fp_rect
+		(start -4.09 -4.25)
+		(end 4.09 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e60bb861-dd9b-4a51-8b0d-c53782c8ac00")
+	)
+	(fp_line
+		(start -3.85 -4)
+		(end 3.85 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "675587fc-9da9-4487-bdab-aa960479f761")
+	)
+	(fp_line
+		(start -3.85 4)
+		(end -3.85 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e52b54c2-02a5-4e03-bb4c-95a0eb74ec0c")
+	)
+	(fp_line
+		(start 3.85 -4)
+		(end 3.85 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13d6d859-acdc-4053-ab1a-303d01e2ea96")
+	)
+	(fp_line
+		(start 3.85 4)
+		(end -3.85 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee0cd836-9d80-4071-a721-0ced9cea25dc")
+	)
+	(fp_text user "Author: Antmicro"
+		(at -4.09 7.2 180)
+		(layer "F.Fab")
+		(uuid "c6177647-150f-431e-9fab-f2f6b51afd3c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.09 8.4 180)
+		(layer "F.Fab")
+		(uuid "a60b608b-be5e-4b4e-adf4-3817bf4e1cd3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -4.09 9.6 180)
+		(layer "F.Fab")
+		(uuid "56144d2f-57e0-4d98-9642-18bba8079a37")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.41 0)
+		(size 1.92 6.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "039c3587-d2ec-4941-aec3-a4e6123494ac")
+	)
+	(pad "2" smd roundrect
+		(at 2.41 0)
+		(size 1.92 6.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "c8e08b4e-c9ec-408c-a0ff-2e4a637d88aa")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/XAL7070-332MEB.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

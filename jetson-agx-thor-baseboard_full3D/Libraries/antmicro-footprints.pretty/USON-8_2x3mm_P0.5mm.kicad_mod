@@ -1,0 +1,316 @@
+(footprint "USON-8_2x3mm_P0.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.011 1.710001 0)
+		(layer "F.SilkS")
+		(uuid "adde596b-d532-4b18-9cc9-425c5ed09d51")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "W25Q80DV_USON"
+		(at 0 2.300001 0)
+		(layer "F.Fab")
+		(uuid "d8eac669-aca7-45b5-94a7-7fd09f81be1c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/949/w25q80dv_dl_revh_10022015-1489677.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9448a6da-6344-4daa-b4c3-e3bd2926f150")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FLASH - NOR Memory IC 8Mbit SPI - Quad I/O 104 MHz 8-USON (2x3)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99859232-d027-4f6c-b956-1502f874169b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "W25Q80DVUXIE TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4966b3b4-4965-4d18-92aa-9c404c9767bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "850137eb-fe28-47fe-9768-55221c0fdaea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c54d8c75-0907-4789-87f3-91014ed2f963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e75c952d-5c86-4761-86cb-6c99d50bd193")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/USB Debug, PD/")
+	(sheetfile "usb_debug_pd.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.710001 -0.89)
+		(end -1.3 -1.301)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73dd545d-d165-48e3-ad5c-af8ab65e7db6")
+	)
+	(fp_line
+		(start -1.71 1.3)
+		(end -1.710001 -0.89)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07189880-789b-473e-9432-d33a0fd90f32")
+	)
+	(fp_line
+		(start -1.3 -1.301)
+		(end 1.71 -1.3005)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fcb63d7-66c2-44cd-80f8-6c89167dba73")
+	)
+	(fp_line
+		(start 1.71 -1.3005)
+		(end 1.71 1.3005)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3322c0c8-7f7b-4dbb-9c2b-7793a071577c")
+	)
+	(fp_line
+		(start 1.71 1.3005)
+		(end -1.71 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c982fbd-596e-40e6-b978-ae73ec02d93d")
+	)
+	(fp_circle
+		(center -1.749999 -1.25)
+		(end -1.7 -1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e9498c7a-16c1-4f18-b993-fa23e1d69b74")
+	)
+	(fp_poly
+		(pts
+			(xy 1.899999 -1.4) (xy -1.899999 -1.4) (xy -1.899999 1.4) (xy 1.899999 1.4)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79ca94a3-1a3c-41f1-8c8d-5e66e410a51f")
+	)
+	(fp_line
+		(start -1.499 -0.499999)
+		(end -0.998 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd6af02b-acfa-4288-b4a5-80358600526a")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 1) (xy -1.5 1) (xy -1.5 -1) (xy 1.5 -1)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "96ecd6e1-580f-4dad-a656-981643fdd03d")
+	)
+	(fp_text user "Author: Antmicro"
+		(at -1.9 6.099 0)
+		(layer "F.Fab")
+		(uuid "edf07e6c-6072-4258-9880-8302d7d5818c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -1.9 7.099 0)
+		(layer "F.Fab")
+		(uuid "d40fb04a-cc0d-44a0-a103-428d42f0ec0b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.899999 5.099 0)
+		(layer "F.Fab")
+		(uuid "820466dc-05b1-466a-a804-0b808267a191")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.273 -0.75 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4e98a158-8b30-46a7-9cfe-79e6f2ad04e3")
+	)
+	(pad "2" smd roundrect
+		(at -1.273 -0.25 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "82ad1758-73a6-4d27-9e0d-be1cbe0b0f1f")
+	)
+	(pad "3" smd roundrect
+		(at -1.272999 0.248 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d35f6bd1-ff17-4a29-b001-5f4cd03c3e4e")
+	)
+	(pad "4" smd roundrect
+		(at -1.273 0.748 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "12e438a9-3064-41c9-b599-cd04673598bd")
+	)
+	(pad "5" smd roundrect
+		(at 1.276 0.748 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3d3f22cd-09c0-40cf-b95d-994a158b51b7")
+	)
+	(pad "6" smd roundrect
+		(at 1.276 0.248 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "57d11fb2-fbea-4bf3-9cf0-39754269a63f")
+	)
+	(pad "7" smd roundrect
+		(at 1.276 -0.25 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e80818db-4a26-4f92-ae5b-8927e7d96ad4")
+	)
+	(pad "8" smd roundrect
+		(at 1.276 -0.75 270)
+		(size 0.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1ab8ee68-cc59-407c-8594-a42913a47ef3")
+	)
+	(pad "EP" smd roundrect
+		(at 0 0)
+		(size 0.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f8c51525-55d2-45ed-a2a2-e9decdaf61ec")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/USON-8_L3.0-W2.0-P0.50-BL-EP_GD25QXX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,324 @@
+(footprint "SOT-23-5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.25 -1 0)
+		(layer "F.SilkS")
+		(uuid "7f481efa-6701-4487-acaa-cf35a3130167")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TPS3840PL30DBVR"
+		(at 0.002 2.799 0)
+		(layer "F.Fab")
+		(uuid "0da95168-f531-47a6-aa23-727b58b2f22f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps3840.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_url=https%3A%2F%2Fwww.mouser.com%2F&distId=26"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02b70ec3-95fb-4413-819d-f6d1ab9f3997")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Voltage supervisor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882dc77a-3fa8-4706-adcc-4d96bb69ea2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9fcce9c-3c13-43c4-9be5-214f28197aa6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "TPS3840PL30DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd41fbcb-19e2-44d4-9d51-71ea6cab65fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7125053a-4c48-45f0-977b-0c8937bd9ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c290bf01-6ce8-4c7a-89ec-c1face742cef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "DBV0005A_N DBV0005A_M DBV0005A_L")
+	(sheetname "/SoM_Power/")
+	(sheetfile "som_power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.85 1.6)
+		(end -0.85 1.301)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43174469-1da3-4eef-bb16-79f42e558b82")
+	)
+	(fp_line
+		(start -0.8 -1.6)
+		(end -0.8 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f3f171-d307-4210-938c-534a6cf219e0")
+	)
+	(fp_line
+		(start -0.8 -1.6)
+		(end -0.5 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87f6fdbc-e87f-402f-8ea4-ac22a8f0b180")
+	)
+	(fp_line
+		(start -0.55 1.6)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa6368ca-714e-4bfd-bfb5-2b227cab281a")
+	)
+	(fp_line
+		(start 0.8 -1.6)
+		(end 0.5 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a087e69c-2cdc-49d5-8a0a-467dc2600903")
+	)
+	(fp_line
+		(start 0.8 -1.3)
+		(end 0.8 -1.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a22f3c7c-042c-48ba-8f73-0dd17e9c680f")
+	)
+	(fp_line
+		(start 0.8 0.55)
+		(end 0.8 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c91ebb3-f919-4311-9257-5d10c3f7ba9d")
+	)
+	(fp_line
+		(start 0.8 1.3)
+		(end 0.8 1.599)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc77654d-a791-4a90-8be8-064f97e94842")
+	)
+	(fp_line
+		(start 0.8 1.599)
+		(end 0.549 1.599)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85d18a30-5ef3-4c7d-92f4-30b6b479c9fc")
+	)
+	(fp_circle
+		(center -1.25 -1.5)
+		(end -1.2 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d921e8bb-f12b-417b-87bb-a032998bb0fc")
+	)
+	(fp_poly
+		(pts
+			(xy 1.9 -1.76) (xy 1.9 1.75) (xy -1.9 1.75) (xy -1.9 -1.76)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "561219cd-b6ef-4ca3-8ca4-02e53aa866f8")
+	)
+	(fp_line
+		(start -0.398 -1.525999)
+		(end -0.874 -1.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c304c5a-696a-4bb9-acd2-e66da095729c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.874 1.523) (xy 0.874 -1.525) (xy -0.873 -1.525) (xy -0.873 1.523)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ce6e3783-54cf-4c46-93c7-b03efbe9bfca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.898 4.299 0)
+		(layer "F.Fab")
+		(uuid "0ad1c14c-cd46-400c-976f-3dbf4cc31e4e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -1.898 5.499 0)
+		(layer "F.Fab")
+		(uuid "0f727741-9196-49a2-8898-4f87c9ac61fa")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -1.898 6.7 0)
+		(layer "F.Fab")
+		(uuid "414b2e53-0899-49c2-bdea-48470b7f6de0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.351 -0.951 270)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f84986e4-80ed-4cb4-adf7-2451df3af6aa")
+	)
+	(pad "2" smd rect
+		(at -1.351 0 270)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "548420eb-4c88-481b-92fc-d84ee5c51862")
+	)
+	(pad "3" smd rect
+		(at -1.351 0.949 270)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2a1cf350-1aac-4934-bebd-8e7495dad04f")
+	)
+	(pad "4" smd rect
+		(at 1.35 0.949 270)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a5baf78-bf3d-4389-a4f4-e375cea6572b")
+	)
+	(pad "5" smd rect
+		(at 1.35 -0.951 270)
+		(size 0.55 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d42a1786-aeda-4ae8-b9d4-87e77d190ebb")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR.step"
+		(offset
+			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

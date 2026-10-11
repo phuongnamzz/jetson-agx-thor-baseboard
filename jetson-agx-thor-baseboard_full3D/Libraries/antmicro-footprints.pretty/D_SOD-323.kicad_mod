@@ -1,0 +1,311 @@
+(footprint "D_SOD-323"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.47 -6.55 0)
+		(layer "F.SilkS")
+		(uuid "3648fc53-0cd3-46da-a08f-cdcd0db27d56")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "BZT52B15SV-T"
+		(at 0 1.841 0)
+		(layer "F.Fab")
+		(uuid "8229282e-de64-4a2d-a1d5-7e8665f366a9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/345/bzt52bxxsv_series-2301278.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "160a64c6-b27f-42ed-bb86-3036a28a997b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Zener Single Diode, AEC-Q101, 15 V, 500 mW, SOD-323, 2 Pins, 150 °C, Surface Mount"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32c5a26c-7100-4bd2-ad03-7a96245dea68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "BZT52B15SV-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910030a7-72cf-4414-bfca-2ac51f4d255f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Rectron"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "622e8295-284f-40b3-9865-a351aa99781f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00a8a480-02b3-4186-b480-c80a69f7e8c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "648444c6-f8b2-4cce-b6c0-01c5d2dd3bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.949 -0.749)
+		(end -0.949 -0.499)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89b47f34-39d7-4794-94c7-0523fee8678a")
+	)
+	(fp_line
+		(start -0.949 0.501)
+		(end -0.949 0.751)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9e7bdb0-923f-4a1a-803b-8903c516e3c4")
+	)
+	(fp_line
+		(start -0.6 -0.499)
+		(end -0.6 0.499)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0727a7d6-a9c3-4751-8d8d-cc3215cccfae")
+	)
+	(fp_line
+		(start -0.577 -0.749)
+		(end -0.949 -0.749)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc40d93b-495f-40ca-a8a6-8eeb7fcf031d")
+	)
+	(fp_line
+		(start -0.577 0.751)
+		(end -0.949 0.751)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8b7c9f1-9798-4d53-9b22-6820574c53de")
+	)
+	(fp_line
+		(start 0.625 -0.736)
+		(end 0.949 -0.736)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d1606ae-ef73-4a36-9641-d04e7a0f07a5")
+	)
+	(fp_line
+		(start 0.949 -0.736)
+		(end 0.949 -0.499)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9dc21e0-cd60-4ff0-940b-631cfa0e3de8")
+	)
+	(fp_line
+		(start 0.95 0.501)
+		(end 0.95 0.751)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdabc713-5fa5-4bad-b6ee-b03ca9b1e8e6")
+	)
+	(fp_line
+		(start 0.95 0.751)
+		(end 0.649 0.751)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1509007-83bd-437d-8b4f-894c3d969993")
+	)
+	(fp_rect
+		(start -1.6 -0.925)
+		(end 1.6 0.925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7c9e307d-1b57-4cbe-9aaa-dd9b79b7df3d")
+	)
+	(fp_line
+		(start -0.902 0.699)
+		(end -0.902 -0.699)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c026a774-4ab8-4d39-a0a8-142fffdce120")
+	)
+	(fp_line
+		(start -0.902 0.699)
+		(end 0.9 0.699)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f9272df-954c-4cb1-9bef-3c3c3fb0930c")
+	)
+	(fp_line
+		(start 0.9 -0.699)
+		(end -0.902 -0.699)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ee16922-4003-4cf1-8375-8d92b8fa320d")
+	)
+	(fp_line
+		(start 0.9 -0.699)
+		(end 0.9 0.699)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05548eec-2fd3-40eb-beda-b1ac62418c92")
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -1.4 3.841 0)
+		(layer "F.Fab")
+		(uuid "5a89532d-fa9d-4d17-94dc-ef9f9bde6c2b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.4 5.041 0)
+		(layer "F.Fab")
+		(uuid "16d31af0-3587-4dd1-8ccf-ba4c8bfeaf45")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -1.4 6.241 0)
+		(layer "F.Fab")
+		(uuid "14c6f1a4-7475-46db-9ca4-c604d6115b64")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 0.001)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "952198fb-7c6f-4882-ba9a-33db4bd00a7e")
+	)
+	(pad "2" smd rect
+		(at 1.124 0.001)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a91cd2e-63d1-44d4-bbe4-e46ea1a8ef33")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/D_SOD-323.step"
+		(offset
+			(xyz 0 -0.001 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

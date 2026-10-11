@@ -1,0 +1,386 @@
+(footprint "Conn_Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-W-TR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -10.32 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "52a56054-0597-4573-9230-d680084ce58a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Plug_Samtec_UMPT_1x6_UMPT-06-06.5-G-V-S-TR"
+		(at -10.32 5.3 0)
+		(layer "F.Fab")
+		(uuid "1c4124e6-9076-4c87-afd1-3c06c0a2dec5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/umpt.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "37230c87-f4b2-40b6-a90e-94e4c16b9a8c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Description" "2.00 mm mPOWER® Ultra Micro Power Terminal, Vertical"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a747a808-0ce2-43f9-8119-4468ed22d794")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "MPN" "UMPT-06-06.5-G-V-S-W-TR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f64198e7-c8a4-4c5e-ba22-cda727db6268")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Samtec"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b896c952-c972-41e6-bcac-e47980fde09d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6724435b-7ffe-4cb8-8121-f128dff55837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cc30189-5968-4e28-ad22-1bd499b8091e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Expansion connector/")
+	(sheetfile "expansion_connector.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.65 -3.2)
+		(end -9.65 -3.03)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd19dc27-314a-4bda-8c1b-7fcb046d1be4")
+	)
+	(fp_line
+		(start -9.65 2.63)
+		(end -9.65 3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "257ce3dd-94bf-451e-b3d3-2571e0eb5987")
+	)
+	(fp_line
+		(start -9.05 -3.8)
+		(end -9.65 -3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda01383-22e0-47cf-8e67-c1e4ef087cc8")
+	)
+	(fp_line
+		(start 9.65 -3.8)
+		(end -9.05 -3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b0d6655-d61e-4145-b4b3-c47122134538")
+	)
+	(fp_line
+		(start 9.65 -3.8)
+		(end 9.65 -3.53)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c5acb2d-485b-49c1-bd6a-14cbe4cf85e1")
+	)
+	(fp_line
+		(start 9.65 2.13)
+		(end 9.65 3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e14701fe-eaed-484f-a8c6-e8f106a59ce0")
+	)
+	(fp_line
+		(start 9.65 3.8)
+		(end -9.65 3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8ac0704-77b9-4d7d-8d18-bdefefe3b6ca")
+	)
+	(fp_circle
+		(center -5 -4.04)
+		(end -4.95 -4.04)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f614c8d1-6553-47f2-8d24-210a15ce49fe")
+	)
+	(fp_rect
+		(start -10.05 -4.2)
+		(end 10.05 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3052cf15-5aa1-425a-8d73-984a41a08985")
+	)
+	(fp_line
+		(start -9.65 -3.2)
+		(end -9.65 3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04681377-0ce3-4b30-b037-f07999d6ba24")
+	)
+	(fp_line
+		(start -9.65 3.8)
+		(end 9.65 3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a403536a-b973-4a32-acd1-7eeafe4dc3dd")
+	)
+	(fp_line
+		(start -9.05 -3.8)
+		(end -9.65 -3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c3199594-97d0-4d38-9474-6ee9ddab9036")
+	)
+	(fp_line
+		(start 9.65 -3.8)
+		(end -9.05 -3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab2f79a7-dcde-43c1-9de8-5f0dfed059af")
+	)
+	(fp_line
+		(start 9.65 3.8)
+		(end 9.65 -3.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b518039a-70db-46f0-94d9-c5fadbe61f90")
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -10.32 6.5 0)
+		(layer "F.Fab")
+		(uuid "a4493e4f-a5b8-4515-8960-5fc289f03c5d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -10.32 7.7 0)
+		(layer "F.Fab")
+		(uuid "d7d18dfa-69ba-4bbf-b029-04c15a301a2d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -10.32 8.9 0)
+		(layer "F.Fab")
+		(uuid "648578e0-0008-4b47-94e9-beee1c170e5d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -5 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a6491fe8-712c-4048-a5b1-519ba8c994ca")
+	)
+	(pad "2" smd rect
+		(at -3 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cdbc42f9-f1a6-4759-bfbf-6b44bd4d8084")
+	)
+	(pad "3" smd rect
+		(at -1 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "1507a9bf-92be-460f-99c4-24f6baeef9ec")
+	)
+	(pad "4" smd rect
+		(at 1 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "39116ddc-8c77-43b5-9ac7-fe7cd5841fed")
+	)
+	(pad "5" smd rect
+		(at 3 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "aa854891-fbf7-40a2-8ce4-d5471f69706f")
+	)
+	(pad "6" smd rect
+		(at 5 0 180)
+		(size 1.25 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c9070d7b-d2f1-4aa2-8350-3601a365cdf7")
+	)
+	(pad "MP1" thru_hole circle
+		(at 8.85 -1.7 180)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu"
+		)
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c71629bb-3a59-4a0e-b3ee-9cf3516eff48")
+	)
+	(pad "MP1" thru_hole circle
+		(at 8.85 0.3 180)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu"
+		)
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "6c80e8d1-5357-4b11-a633-1d2ecf26a49d")
+	)
+	(pad "MP2" thru_hole circle
+		(at -8.85 -1.2 180)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu"
+		)
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bd629da2-de65-473e-ad89-7741531fa41e")
+	)
+	(pad "MP2" thru_hole circle
+		(at -8.85 0.8 180)
+		(size 1.308 1.308)
+		(drill 0.8)
+		(layers "*.Mask" "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu"
+			"In6.Cu" "In7.Cu" "In8.Cu"
+		)
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "af49ba60-0d79-42b8-b8c2-ea34b2afa220")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/UMPT-06-06.5-G-V-S-W-TR.stp"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

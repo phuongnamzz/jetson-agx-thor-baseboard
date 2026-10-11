@@ -1,0 +1,316 @@
+(footprint "MS621FE-FL11E"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.66 -2.249468 270)
+		(layer "F.SilkS")
+		(uuid "1b5aca4a-9cfb-4bc9-8a8c-fde1f622c9d9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "Battery_Holder_MS621FE-FL11E"
+		(at -0.001 6.2 180)
+		(layer "F.Fab")
+		(uuid "06fd9594-e5e2-4dab-963a-83b24e60fff7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f5f8feb-f71b-4a28-910e-851224da3fee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac3268ec-3054-4d48-a0e4-af57ddecd711")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Seiko Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d44dd36-0030-4955-b4fb-f3789524d23e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "MS621FE-FL11E"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26ffee7-e64d-4b01-8c0a-5a98d7124adf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "096abc9b-9409-422b-b123-56a413e7718f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8809bbc9-26a9-4128-b5d6-8ee673948e13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/SoM_Power/")
+	(sheetfile "som_power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_arc
+		(start 1.2 -2.15)
+		(mid 0 4.834)
+		(end -1.2 -2.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af493d60-e607-41c8-89ad-e91aca6812ab")
+	)
+	(fp_line
+		(start -1.275 -5.2)
+		(end -1.275 -2.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4928ecfc-4159-48d2-82a7-425fa4088a94")
+	)
+	(fp_line
+		(start 1.275 -5.2)
+		(end -1.275 -5.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aafa306f-9bcc-4522-a185-c4987b53955f")
+	)
+	(fp_line
+		(start 1.275 -5.2)
+		(end 1.275 -2.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e9d8e08-1736-4248-80b1-225067bcedc4")
+	)
+	(fp_arc
+		(start 1.275 -2.425)
+		(mid 0 5.143374)
+		(end -1.275 -2.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86fac598-98ca-4199-8cb3-8e23e6a1dca7")
+	)
+	(fp_line
+		(start -1.2 -4.65)
+		(end -1.2 -2.04)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5463cfed-ec6f-413f-b186-612c5f1ee952")
+	)
+	(fp_line
+		(start -0.8 -5.05)
+		(end -1.2 -4.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63de7ede-89e2-4794-8b15-897694d62df7")
+	)
+	(fp_line
+		(start 1.2 -5.05)
+		(end -0.8 -5.05)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6119db77-e2ae-4de8-a207-b520d64eb7aa")
+	)
+	(fp_line
+		(start 1.2 -5.05)
+		(end 1.2 -2.04)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d83e7cc7-de2e-4b76-9596-12c71fbe1248")
+	)
+	(fp_circle
+		(center -0.001 1.25)
+		(end -0.001 -2.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fb530066-4376-4b6a-8213-422b3bbd7e2f")
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -3.501 8.2 180)
+		(layer "F.Fab")
+		(uuid "01173768-94a1-4829-aecf-96e6b08c2c04")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -3.501 9.4 180)
+		(layer "F.Fab")
+		(uuid "9d3d2b47-56d9-4d11-836a-c720e8f2dd5f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.501 11.8 180)
+		(layer "F.Fab")
+		(uuid "5120ef1a-ca9a-4e92-ade5-e9ee4b5e4fea")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "COPPER KEEPOUT"
+		(at -0.2 -3.14 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f7aab25-8682-497b-94b3-701368f57f75")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.75 -4.05 270)
+		(size 1.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "73bad4bc-ba85-434a-9a31-a9481707b994")
+	)
+	(pad "2" smd rect
+		(at 0.75 -4.05 270)
+		(size 1.8 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46420225-59b6-4ea6-aeef-4aa59ad56204")
+	)
+	(zone
+		(layers "F.Cu" "F.CrtYd")
+		(uuid "4e973539-3a8f-42bc-8aff-4d6b5e771dcd")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.1 0.4) (xy -1.1 -5.24) (xy 1.22 -5.24) (xy 1.22 0.4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/MS621FE-FL11E.stp"
+		(offset
+			(xyz 0 -1.5 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

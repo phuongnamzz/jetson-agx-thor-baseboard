@@ -1,0 +1,257 @@
+(footprint "L_MPS-MPL-AL5050"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.369468 -1.33 270)
+		(layer "F.SilkS")
+		(uuid "52bc4d4a-5771-499b-b738-6e86d9be3921")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "L_6u8_6.1A_MPS-MPL-AL5050"
+		(at 0.1 4.25 180)
+		(layer "F.Fab")
+		(uuid "e398b111-5f76-483e-9ca1-dd8635418bc0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MPL-AL5050-6R8/document_id/5811/"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90765d13-7ec0-4bd1-a32c-6648f3f0b2f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Inductor (SMT), 6.8 µH, 6.1 A, Shielded, 7.6 A, MPL-AL"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "021924fb-ae5d-41a2-9c91-d973d1479da1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "6u8/6.1A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf736f7b-7c85-44d1-87b3-7681f27fb712")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Monolithic Power Systems"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50a8f043-8558-4727-85ce-1e761070f386")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "MPL-AL5050-6R8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25f55440-6346-4944-a8dc-ee4b07386346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ISat" "7.6 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d95ddef7-278e-46e6-b67c-6154ad182352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IMax" "6.1 A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4f90f07-43ad-4be9-be3b-8ec2c373d413")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "5.5x5.3"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e235ec3-3032-4469-ae37-74c72fbac57a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3481ae0a-ba8e-4549-9a9d-d2317ffb1352")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aa0618b-b284-40fe-ab32-c1b54fa9d053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/DCDC/")
+	(sheetfile "dcdc.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.75 -2.85)
+		(end 2.75 2.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb00bc88-7dbe-49af-9f1e-ab9ed4dc6512")
+	)
+	(fp_rect
+		(start -2.9 -3)
+		(end 2.9 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c37f81b3-e419-42f7-b139-1eeb18f5149a")
+	)
+	(fp_rect
+		(start -2.65 -2.75)
+		(end 2.65 2.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "72b3b1a5-750b-4aab-93c6-23ee79138d9d")
+	)
+	(fp_text user "Author: Antmicro"
+		(at -2.9 6.25 180)
+		(layer "F.Fab")
+		(uuid "970ac6bf-46ea-4c8b-9823-534a00c3ba03")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.9 7.45 180)
+		(layer "F.Fab")
+		(uuid "54d47ee3-3b21-493e-b077-066af69bfb55")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -2.9 8.65 180)
+		(layer "F.Fab")
+		(uuid "80dc1ed5-02ec-42ac-9cd2-9ebadf8899fe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.625 0)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "f44521c7-a775-482d-b584-91104a0addb1")
+	)
+	(pad "2" smd roundrect
+		(at 1.625 0)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "2dafab23-64de-4db6-badc-b92675135058")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/MPL-AL5050-xxx.STEP"
+		(offset
+			(xyz 0 0 4.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

@@ -1,0 +1,292 @@
+(footprint "SC-70-6"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.9 -1.2 0)
+		(layer "F.SilkS")
+		(uuid "d3169e2a-fae2-4bda-b248-bd870a983052")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SN74LVC2G07DCKR"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "bbce9d90-266a-4170-bd1b-18032c4b35ce")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/sn74lvc2g07"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fed50460-369f-4858-b956-2fb2e0850400")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buffer / Line Driver, SN74LVC2G07DCKR, 1.65 V to 5.5 V, SC-70-5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d3466dd-e38a-4cea-9695-b63e80cce88f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SN74LVC2G07DCKR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "640d6f8a-4b37-4a85-b30d-48cd2178744b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e9d115d-2ed8-48fb-a341-c82962c29f92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dc73467-b42f-4e00-bf26-64627ab1c180")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee351169-240e-4658-b8b6-e416bf5b8a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/SoM_Power/")
+	(sheetfile "som_power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -1)
+		(end 0.7 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0b19bc8-3657-40f2-8d7a-6e054129de1d")
+	)
+	(fp_line
+		(start -0.7 1)
+		(end 0.7 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52bb9745-fb62-4920-bd12-738ffbe784dc")
+	)
+	(fp_circle
+		(center -1.1 -1)
+		(end -1.025 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eab52ca2-0e81-49ef-90e8-3515f7311552")
+	)
+	(fp_rect
+		(start -1.6 -1.1)
+		(end 1.6 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "747e4c48-69d6-41af-aec2-e30475eeab0b")
+	)
+	(fp_line
+		(start -0.593 0.993)
+		(end -0.593 -0.706)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdccceea-5558-4d70-bbab-b9ece7af55a3")
+	)
+	(fp_line
+		(start -0.293 -1.006)
+		(end -0.593 -0.706)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6544d014-5ef9-4828-84c7-2c73a81d76ad")
+	)
+	(fp_line
+		(start -0.293 -1.006)
+		(end 0.657 -1.006)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3877945f-7899-4c51-9398-5798c75c2f01")
+	)
+	(fp_line
+		(start 0.657 -1.006)
+		(end 0.657 0.993)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f420332e-ff7b-464e-affd-f4897d1bedce")
+	)
+	(fp_line
+		(start 0.657 0.993)
+		(end -0.593 0.993)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31630757-2c89-44e2-b5b3-7b321cccf2c5")
+	)
+	(fp_text user "Author: Antmicro"
+		(at -1.45 4.2 0)
+		(layer "F.Fab")
+		(uuid "1739d23f-f654-4226-82df-2b729a0b2a1f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.45 5.4 0)
+		(layer "F.Fab")
+		(uuid "a125a44b-54c5-4d98-839d-36fc08fd2d10")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -1.45 6.6 0)
+		(layer "F.Fab")
+		(uuid "00d7e70d-0985-4674-a876-f6a193a6f81a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.1 -0.65)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dab03172-2cee-4a95-a527-4791eb235d83")
+	)
+	(pad "2" smd roundrect
+		(at -1.1 0)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0f75e501-20d1-4621-a11f-8f916ab7c384")
+	)
+	(pad "3" smd roundrect
+		(at -1.1 0.65)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d654e71c-af2a-4d7b-9125-62542ca12b5c")
+	)
+	(pad "4" smd roundrect
+		(at 1.1 0.65)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "923f78d9-2421-4c15-bb5d-6ddbc5f1f154")
+	)
+	(pad "5" smd roundrect
+		(at 1.1 0)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a29e792b-e61f-494f-86cd-cd9e6b860b53")
+	)
+	(pad "6" smd roundrect
+		(at 1.1 -0.65)
+		(size 0.85 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5ca2cbd2-523e-4763-b2d2-7218b84b4153")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/SOT-363_SC-70-6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

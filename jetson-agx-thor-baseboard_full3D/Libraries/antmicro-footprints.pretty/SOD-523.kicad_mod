@@ -1,0 +1,243 @@
+(footprint "SOD-523"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.999 0.4 0)
+		(layer "F.SilkS")
+		(uuid "0fbd2083-db54-4535-90f1-7be9c652736d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "PESD5Z5.0F"
+		(at 0 1.499 0)
+		(layer "F.Fab")
+		(uuid "e8d8610d-1536-4668-9449-fe2a7d27c807")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z5_0.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a55aadb-7bf3-4676-b5c4-907d25231f8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 5 V, 89 pF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a79c526-06eb-40b6-b7d6-d84a428f1cd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b6e77e6-a383-4ca1-8715-6bf2690c4f8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "PESD5Z5.0F"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e78ab49-366a-4575-a04a-350d4091bea1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6820326d-c04a-4d87-990f-626d3f6d0bf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc06c84-f313-4860-aeae-5d1454513292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/USB Hub/")
+	(sheetfile "usb_hub.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.35 -0.5)
+		(end -0.35 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f31d4c4-bb8b-4010-b809-796665c237a7")
+	)
+	(fp_rect
+		(start -1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ee78fdbb-e07d-4590-bb9c-d2ac1d27a8a4")
+	)
+	(fp_line
+		(start -0.652 -0.425)
+		(end 0.65 -0.425)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "112ba86c-3b07-484f-8477-485d6b52de3f")
+	)
+	(fp_line
+		(start -0.652 0.423)
+		(end -0.652 -0.425)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a13c4048-86b9-4ffb-89e1-421b2ba63d08")
+	)
+	(fp_line
+		(start -0.652 0.423)
+		(end 0.65 0.423)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc3de452-1e1b-4598-a2c1-9a3ea9366abf")
+	)
+	(fp_line
+		(start -0.35 -0.4)
+		(end -0.35 0.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8e4ba6c-b51d-4b22-8b9b-9ea234cbc536")
+	)
+	(fp_line
+		(start 0.65 -0.425)
+		(end 0.65 0.423)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d594644c-f626-4163-890b-68b607143341")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.276 3.499 0)
+		(layer "F.Fab")
+		(uuid "a1d7b61b-8e37-433c-b899-24a062bf0c4a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -1.276 4.7 0)
+		(layer "F.Fab")
+		(uuid "970118c7-76e0-43f6-ab76-b261d39665d9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -1.276 5.9 0)
+		(layer "F.Fab")
+		(uuid "125aa6db-9160-4cc0-9ccc-cd82b5cc9631")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.701 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "72feb10b-7d42-43ed-9a63-ee8be5a93990")
+	)
+	(pad "2" smd roundrect
+		(at 0.699 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9cf413d9-f1b1-47f7-aa16-bb30888fef08")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/SOD-523_L1.2-W0.8-H0.7-LS1.6.step"
+		(offset
+			(xyz -0.25 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

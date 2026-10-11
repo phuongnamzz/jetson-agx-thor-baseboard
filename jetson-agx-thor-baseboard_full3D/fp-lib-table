@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "footprint") (type "KiCad") (uri "${KIPRJMOD}/Libraries/footprint.pretty") (options "") (descr ""))
+	(lib (name "antmicro-footprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries/antmicro-footprints.pretty") (options "") (descr ""))
+)

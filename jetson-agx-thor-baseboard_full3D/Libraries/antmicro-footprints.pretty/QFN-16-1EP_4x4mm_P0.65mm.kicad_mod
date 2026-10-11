@@ -1,0 +1,383 @@
+(footprint "QFN-16-1EP_4x4mm_P0.65mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.49 -2.32 90)
+		(layer "F.SilkS")
+		(uuid "53f1b2c8-b6e8-4477-b046-8b932653a496")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "FT230X_QFN"
+		(at 0 3.3 0)
+		(layer "F.Fab")
+		(uuid "9376d883-aa86-4094-8d68-396a3d9f1749")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" "https://ftdichip.com/wp-content/uploads/2021/10/DS_FT230X.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc15b267-6420-45a7-b9f3-daa414b9d291")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "USB Interface, USB-UART Converter, USB 2.0, 2.97 V, 5.5 V, QFN, 16 Pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "509a6b63-2c2b-4bd5-a4cf-e2b22cab3dd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "FTDI Chip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caa5def7-efd2-466e-b912-81649577a941")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "FT230XQ-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c56bb35f-7f9b-479a-9ef5-b04647db97cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3590250c-4f0d-4be5-b129-a3b379532920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3925669c-3c52-4da9-a87f-aa6071ba668c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/USB Debug, PD/")
+	(sheetfile "usb_debug_pd.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.101 1.398)
+		(end -2.101 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9985d30-e8c7-4f00-8afe-5cb2cae3653e")
+	)
+	(fp_line
+		(start -2.101 2.1)
+		(end -1.5 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f8c6c27-995d-483e-941a-59ef237410b1")
+	)
+	(fp_line
+		(start -2.1 -2.1)
+		(end -2.101 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9ff3803-5a37-4640-a529-fe5a9b182bf9")
+	)
+	(fp_line
+		(start -1.4 -2.1)
+		(end -2.1 -2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5adbda70-d3d4-4b11-bd97-c3f591abc632")
+	)
+	(fp_line
+		(start 1.499 -2.101)
+		(end 2.1 -2.101)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50e9ae46-dfc1-4a93-b7e2-f0391f264a6c")
+	)
+	(fp_line
+		(start 1.499 2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1cc8d38-04e2-4439-a0f5-5ed2e4c95086")
+	)
+	(fp_line
+		(start 2.1 -2.101)
+		(end 2.1 -1.401)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce6844f0-0730-4cd9-be97-d5cef3455e10")
+	)
+	(fp_line
+		(start 2.1 2.1)
+		(end 2.1 1.398)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89f5afef-9531-4fd2-9d0a-684b1b3b221c")
+	)
+	(fp_circle
+		(center -2.35 -1.4)
+		(end -2.3 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5c059085-9bf3-4ffb-93b0-10c9c8ef4d41")
+	)
+	(fp_rect
+		(start -2.35 -2.35)
+		(end 2.35 2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7c8bd43d-eb5e-404b-b05f-370c6b81e449")
+	)
+	(fp_line
+		(start -1.5 -2)
+		(end -2 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6eb7a4cf-eeeb-4f39-ae8c-496939442ae6")
+	)
+	(fp_rect
+		(start 2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5fd24d73-0645-493a-b30e-78995056dc8c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.35 5.599 0)
+		(layer "F.Fab")
+		(uuid "f9db37e2-1119-4258-805b-f56da5623bd8")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -2.35 6.799 0)
+		(layer "F.Fab")
+		(uuid "0b15373a-8472-44bf-8d4e-ea0e5047a5ef")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -2.35 7.999 0)
+		(layer "F.Fab")
+		(uuid "4d73de84-a457-4361-9a5a-694ee9743cc7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.9 -0.975)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69e303a0-0538-4b84-b37d-e180b970f836")
+	)
+	(pad "2" smd rect
+		(at -1.9 -0.325)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e933cf8-64ce-4346-82b4-0f08e660ac7c")
+	)
+	(pad "3" smd rect
+		(at -1.9 0.325)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c380ff5f-7065-46e2-8290-5d57ca3911ff")
+	)
+	(pad "4" smd rect
+		(at -1.9 0.975)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f2aebb05-66ea-4cca-9429-601251d2a527")
+	)
+	(pad "5" smd rect
+		(at -0.975 1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2c9160b-7d65-4e26-826c-29597326a9cc")
+	)
+	(pad "6" smd rect
+		(at -0.325 1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "56370578-038d-4f8a-8c5f-8b8e3c964c6a")
+	)
+	(pad "7" smd rect
+		(at 0.325 1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2be3745-aa59-4652-b52c-86ee6168c00a")
+	)
+	(pad "8" smd rect
+		(at 0.975 1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d27444b1-d337-444c-b2f9-e2c0e9f2fd24")
+	)
+	(pad "9" smd rect
+		(at 1.9 0.975)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10f9d995-b204-4ba1-83b6-7e5da34a05ec")
+	)
+	(pad "10" smd rect
+		(at 1.9 0.325)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77aa3040-5b71-4bcd-b218-ead72a650b27")
+	)
+	(pad "11" smd rect
+		(at 1.9 -0.325)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5bca4143-e65b-4848-95a3-ad5a8156acf9")
+	)
+	(pad "12" smd rect
+		(at 1.9 -0.975)
+		(size 0.8 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3108be6-1a83-4846-8bc1-5d5beee6f1c1")
+	)
+	(pad "13" smd rect
+		(at 0.975 -1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a74359f1-428b-4214-b9d4-573168256b5c")
+	)
+	(pad "14" smd rect
+		(at 0.325 -1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d85d6396-ce03-4304-9366-33ec3e6e5bac")
+	)
+	(pad "15" smd rect
+		(at -0.325 -1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "690a9392-2a55-455b-8a45-e16c1806284d")
+	)
+	(pad "16" smd rect
+		(at -0.975 -1.9)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14b2afe0-4dcd-4e54-a91a-a32094385c5d")
+	)
+	(pad "17" smd rect
+		(at 0 0)
+		(size 2.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf88a583-cbb9-481e-8e57-efd7faf90ff1")
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/QFN-16_L4.0-W4.0-H1.0-P0.65.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

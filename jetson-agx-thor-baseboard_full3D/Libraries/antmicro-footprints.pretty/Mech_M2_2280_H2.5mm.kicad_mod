@@ -1,0 +1,232 @@
+(footprint "Mech_M2_2280_H2.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.89 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77cb154c-8b8a-48a6-b0df-de30855ac381")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "Mech_M2_2280_H2.5mm"
+		(at 0 6.857 180)
+		(layer "F.Fab")
+		(uuid "ad1ec8d7-4418-4699-a3b3-58a7723ced60")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b745cd1-4fb7-4bfb-85f2-71def2dcb8fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mechanical model for M2 2280 2.5mm module"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bff02d18-ab47-4d83-a9f5-83e71604fb30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "296b55b3-8c20-4f3b-a2c2-426b2ddee40a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06f51772-6ed9-4bc0-8ac6-abd9c33f2b7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Antmicro"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0db7dcc4-038c-45ca-8278-44f7d554282d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "Apache-2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ac0e23e-d37a-4eaa-bde3-2fb7b13d64ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/M.2/")
+	(sheetfile "m2.kicad_sch")
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end -1.25 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5ce0819c-3e70-4433-907e-43d45b4242ac")
+	)
+	(fp_line
+		(start -11 0)
+		(end -11 80.001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "cccfe1c0-d01d-4c83-ba23-d72bf4582991")
+	)
+	(fp_line
+		(start -11 80.001)
+		(end 10.999 80.001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "4f329ce1-30aa-42a5-b90f-ba11270ee503")
+	)
+	(fp_line
+		(start 10.999 0)
+		(end -11 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fed171e3-5f57-41a1-a4ed-768f5b7f6eb5")
+	)
+	(fp_line
+		(start 10.999 80.001)
+		(end 10.999 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "0950c4cc-844f-4cf6-b115-7a4d6c1bb8a0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -1.25 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "b8d0ff9f-38ef-4833-abe0-85a2f363042f")
+	)
+	(fp_rect
+		(start -10.922 0.0508)
+		(end 11.0236 80.0608)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2f490508-c259-44ac-ba6d-f7b3b968dd97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -12.2428 81.9912 180)
+		(layer "F.Fab")
+		(uuid "7a470ff9-3cd7-4977-8848-00ff94c55948")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "Author: Antmicro"
+		(at -12.2428 83.1912 180)
+		(layer "F.Fab")
+		(uuid "546f3092-2ec9-4dbd-8ab6-224e12defae3")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(fp_text user "License: Apache-2.0"
+		(at -12.2428 84.3922 180)
+		(layer "F.Fab")
+		(uuid "8dce2b09-8426-4199-ab2e-6be1cdb20685")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(embedded_fonts no)
+	(model "${ANT3DMDL}/MODULE_GENERIC_M.2-2280.step"
+		(offset
+			(xyz 0.5 -39.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
